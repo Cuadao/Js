@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+.subjects { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #9D2DB9;
+} 
+
+.verbs { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #F5A039;
+} 
+
+.adjectives { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #2DB5B9;
+} 
+
+.objects { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #2DB940;
+} 
+
+.places { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #F64D7B;
+} 
+
+.phrase { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #FF0247;
+}
+
+.repeat { 
+  width: 60px; 
+  height: 60px; 
+  padding: 10px 16px; 
+  border-radius: 50px; 
+  font-size: 12px; 
+  text-align: center; 
+  background-color: #0253FF;
+}
+
+.left {
+  float: left;
+  width: 125px;
+  text-align: left;
+  margin: 2px 10px;
+  display: inline;
+}
+
+.right {
+  float: right;
+  width: 125px;
+  text-align: right;
+  margin: 10px 250px;
+  display: inline;
+  
+}
+ 
