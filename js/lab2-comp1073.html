@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Lab 2 | COMP1073 Client-Side JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+    <h1>Airports</h1>
+    <table class="table">
+	<thead>
+        <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Airport</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row"><a href="https://goo.gl/maps/iPe5fAqzq8C2">PEK</a></th>
+        <td>Beijing Capital International</td>
+        </tr>
+        <tr>
+            <th scope="row"><a href="https://goo.gl/maps/JWwABmA3MBS2">JFK</a></th>
+            <td>John F Kennedy International</td>
+        </tr>
+        <tr>
+            <th scope="row"><a href="https://goo.gl/maps/Ypu1dJLsnQu">YYZ</a></th>
+            <td>Lester B. Pearson International</td>
+        </tr>
+        <tr>
+            <th scope="row"><a href="https://goo.gl/maps/TFx8SrATdYr">LHR</a></th>
+            <td>London Heathrow International</td>
+        </tr>
+        <tr>
+            <th scope="row"><a href="https://goo.gl/maps/5UxH2TxbRtT2">HND</a></th>
+            <td>Tokyo Haneda International</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+</body>
+<script>
+    var airportList = document.querySelector('body ul');
+    airportList.innerHTML = '';
+    var airports = ['Beijing Capital International, https://goo.gl/maps/iPe5fAqzq8C2 PEK',
+                    'John F Kennedy International, https://goo.gl/maps/JWwABmA3MBS2 JFK',
+                    'Lester B. Pearson International, https://goo.gl/maps/Ypu1dJLsnQu YYZ',
+                    'London Heathrow, https://goo.gl/maps/TFx8SrATdYr LHR',
+                    'Tokyo Haneda International, https://goo.gl/maps/5UxH2TxbRtT2 HND'];
+
+    for(var i = 0; i < airports.length; i++) {
+        var input = airports[i];
+        // Put your code here inside this loop
+
+        var result = input;
+        var listItem = document.createElement('tr');
+        listItem.innerHTML = result;
+        airportList.appendChild(listItem);
+    }
+</script>
+</html>
